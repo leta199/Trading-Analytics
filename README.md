@@ -1,2 +1,3 @@
-# SQL-Trading-Analytics
-Trading information is very important in the realm of stock, finance and trading. Using a database of synthetic data, this repository aims to answer important business questions about the user we have in our limited database of financial transactions using SQL queries.
+# SQL-Trading-Analytics  
+In the world of stock holdings, tracking information about these holders is off paramount importance. We can keep track of all of the trasnactions, current holdings, ratings etc in connected databases and we can xtract useful information from them using SQL queries. We will aim to answer the following business questions using  SQL queries to gain insight into our customers. 
+
