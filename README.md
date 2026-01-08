@@ -32,4 +32,4 @@ The key questions we would like to answer are:
 |└──[README](https://github.com/leta199/SQL-Trading-Analytics/blob/main/README.md)
   
 ## AUTHORS   
-[leta199]
+[leta199](https://github.com/leta199)
