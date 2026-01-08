@@ -27,8 +27,9 @@ The key questions we would like to answer are:
 │  ├──[]()   
 │  └──[]()      
 │    
-|├──[query details](https://github.com/leta199/SQL-Trading-Analytics/tree/main/query_details)    
-│  
+|├──[query details](https://github.com/leta199/SQL-Trading-Analytics/tree/main/query_details)      
+│  ├──[query #1 results](https://github.com/leta199/SQL-Trading-Analytics/blob/main/query_details/Query%20%231%20result.xlsx)   
+│  └──[]()    
 |└──[README](https://github.com/leta199/SQL-Trading-Analytics/blob/main/README.md)
   
 ## AUTHORS   
