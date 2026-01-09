@@ -45,6 +45,11 @@ Management would like to investigate what countries have the most trading activi
 For this query we begin by defining a common table expression (CTE) this allows us to use another named query as a reference in our main query.  
 `Common table expression` - is called `num_stocks` and has the count of unique stocks from thetrasnactions table. we will reference it in our main query.  
 
+We select the fields we want to to list and begin with the field `country`.  
+`Stocks of companies traded in` - using the `listaff` function allows us to list in 1 row each stock symbol traded in each country separted by a "," and oreder by symbol.  
+`Number of companies traded` -  the number of stocks traded for each country.  
+`Percentage of 
+
 
 
 ## PROJECT STRUCTURE           
