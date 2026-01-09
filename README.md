@@ -31,7 +31,8 @@ We begin by selecting the fiels we would like to appear in our query.
 In this query we selected `si.symbol` as our query has a join within it.  
 `Percentage of average openng price` - rounds to 2 decimal places how much each opening price of stock is of the average opening stock price concatanated with a % sign.  
 `Percentage of average closing price` - rounds to 2 decimal places how much each closing price of stock is of the average opening stock price concatanated with a % sign.  
-`Percentage of average high price`-rounds to 2 decimal places how much each high price of stock is of the average high stock price concatanated with a % sign. 
+`Percentage of average high price`-rounds to 2 decimal places how much each high price of stock is of the average high stock price concatanated with a % sign.   
+`
 
 **QUERY #2**
 Management would like to investigate what countries have the most trading activity in the database of most recent transactions. They want to know which countries contribute most to our business’s operations in terms of number of stocks traded. This will help with initiatives in the future that will give priority sales to the customers in these countries to appreciate their frequent purchases and keep good customer relationships with the most active communities of people. 
