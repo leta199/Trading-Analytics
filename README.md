@@ -20,13 +20,14 @@ The key questions we would like to answer are:
 1) What stocks have historically had a higher than average opening, closing and high?
 2) What are the most popular shares by quantity sold?
 
-**QUERY #1**
+### **QUERY #1**
 
 For this query  portfolio managers for the various customers served by our stock trading website would like to make the most amount of returns possible to maximize ROI for their clients. Many of their customers are also risk averse and therefore would like to be able to look closely at individual stock prices throughout the history of each stock and have a good way of knowing what stocks are riskier than other based on the opening, closing and high of each stock in comparison to all the stocks we offer on our trading platform. Therefore, they require that we make a Stock grade that indicates how each stock performs considering the opening, closing and high of each stock. This means that any stock that performs well below the average across all three metrics (opening, closing and high) will be greater risk and should be marked as such for clients to discuss whether to invest in the stock with their portfolio managers. 
 
 <img width="657" height="262" alt="Image" src="https://github.com/user-attachments/assets/4feabd91-9b5f-42ff-8cff-bc41f97f6e33" />
 
-*Code analysis*  
+*Code analysis* 
+
 We begin by selecting the fiels we would like to appear in our query.  
 In this query we selected `si.symbol` as our query has a join within it. 
 
@@ -36,12 +37,13 @@ In this query we selected `si.symbol` as our query has a join within it.
 `Case statement` - when our percentage of  opening, closing and high prices are above 90% of the average we will have a stock grade of "A". When our percentage of  opening, closing and high prices are above 50% but less than 90% of the average we will have a stcok grade of "B". Any other value of stock grade (less than 50%) is labelled "Greater risk".  
 `Join on` - we then join on between the two tables we extract the information from.
 
-**QUERY #2**
+### **QUERY #2**
 Management would like to investigate what countries have the most trading activity in the database of most recent transactions. They want to know which countries contribute most to our business’s operations in terms of number of stocks traded. This will help with initiatives in the future that will give priority sales to the customers in these countries to appreciate their frequent purchases and keep good customer relationships with the most active communities of people. 
 
 <img width="654" height="182" alt="Image" src="https://github.com/user-attachments/assets/1405c3ee-c898-4526-9c6a-d1298e52bfda" />
 
 *Code Analysis*   
+
 For this query we begin by defining a common table expression (CTE) this allows us to use another named query as a reference in our main query.  
 `Common table expression` - is called `num_stocks` and has the count of unique stocks from thetrasnactions table. we will reference it in our main query.  
 
