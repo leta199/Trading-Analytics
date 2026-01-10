@@ -35,7 +35,7 @@ Currencies - Currency code.
 Dividend schedule - Schedule of the disperment of dividends for stock holders like stock symbol, dividend amount, yield and currency.  
 Stock history - History of the stock prices such as gistroy date, open, close, volume, high. 
 
-[stock_Logical.pdf](https://github.com/user-attachments/files/24546880/stock_Logical.pdf)
+https://github.com/user-attachments/files/24546886/stock_Relational.pdf
 
 
 
