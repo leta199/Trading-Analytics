@@ -58,6 +58,7 @@ We select the fields we want to to list and begin with the field `country`.
 We then use a `join` on for the tables address and transactions and a `cross join` with our CTE num_stocks. 
 
 FINAL INSIGHTS 
+<img width="899" height="215" alt="Image" src="https://github.com/user-attachments/assets/acc17049-dfcd-42fb-b83e-8b0878087ccf" />
 
 ## PROJECT STRUCTURE           
 |[SQL Trading Analytics](https://github.com/leta199/Monte-Carlo-Integration/blob/main/Monte%20Carlo%20Integration.r)  
