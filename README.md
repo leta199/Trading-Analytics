@@ -38,6 +38,7 @@ In this query we selected `si.symbol` as our query has a join within it.
 `Join on` - we then join on between the two tables we extract the information from.
 
 FINAL INSIGHTS 
+<img width="881" height="378" alt="Image" src="https://github.com/user-attachments/assets/e5e4cdfa-b558-4b8e-b7c1-ae3934d23d7b" />
 
 ### **QUERY #2**
 Management would like to investigate what countries have the most trading activity in the database of most recent transactions. They want to know which countries contribute most to our business’s operations in terms of number of stocks traded. This will help with initiatives in the future that will give priority sales to the customers in these countries to appreciate their frequent purchases and keep good customer relationships with the most active communities of people. 
