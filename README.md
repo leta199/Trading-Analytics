@@ -23,6 +23,16 @@ The key questions we would like to answer are:
 ### DATA 
 For this query we began by definging the requirements for to keep track of our stock information. We define the logical structure of our database.  
 This information is broken into the following tables:  
+Address - The physical adddress of the profile holders including citizenship status, and any mailing difference.  
+Profile - Profile information for each accoutn holder including profile ID, full name, and email.  
+Rating types - What the rating of each stock is including: buy, sell or hold.  
+Analyst opinion - What each analyst states about a stock such as date of opinion, rating code and price. 
+Portfolio - Portfolio ID and profile ID.  
+Stock information - Information on all of the stock we buy/ sell and that are held in portfolios.  
+Insider trading - Information on the traders like sahres traded, price, type (buy/ sell), and symbol.  
+Currencies - Currency code.  
+Dividend schedule - Schedule of the disperment of dividends for stock holders like stock symbol, dividend amount, yield and currency.  
+Stock history - History of the stock prices such as gistroy date, open, close, volume, high. 
 
 
 ### **QUERY #1**
