@@ -44,7 +44,9 @@ The ddl can be found in the database files part of the repository: [ddl file](ht
 
 ### **QUERY #1**
 
-For this query  portfolio managers for the various customers served by our stock trading website would like to make the most amount of returns possible to maximize ROI for their clients. Many of their customers are also risk averse and therefore would like to be able to look closely at individual stock prices throughout the history of each stock and have a good way of knowing what stocks are riskier than other based on the opening, closing and high of each stock in comparison to all the stocks we offer on our trading platform. Therefore, they require that we make a Stock grade that indicates how each stock performs considering the opening, closing and high of each stock. This means that any stock that performs well below the average across all three metrics (opening, closing and high) will be greater risk and should be marked as such for clients to discuss whether to invest in the stock with their portfolio managers. 
+For this query  portfolio managers for the various customers served by our stock trading website would like to make the most amount of returns possible to maximize ROI for their clients. Many of their customers are also risk averse and therefore would like to be able to look closely at individual stock prices throughout the history of each stock and have a good way of knowing what stocks are riskier than other based on the opening, closing and high of each stock in comparison to all the stocks we offer on our trading platform. 
+
+Therefore, they require that we make a Stock grade that indicates how each stock performs considering the opening, closing and high of each stock. This means that any stock that performs well below the average across all three metrics (opening, closing and high) will be greater risk and should be marked as such for clients to discuss whether to invest in the stock with their portfolio managers. 
 
 <img width="657" height="262" alt="Image" src="https://github.com/user-attachments/assets/4feabd91-9b5f-42ff-8cff-bc41f97f6e33" />
 
@@ -52,11 +54,11 @@ For this query  portfolio managers for the various customers served by our stock
 We begin by selecting the fiels we would like to appear in our query.  
 In this query we selected `si.symbol` as our query has a join within it. 
 
-`Percentage of average openng price` - rounds to 2 decimal places how much each opening price of stock is of the average opening stock price concatanated with a % sign.  
-`Percentage of average closing price` - rounds to 2 decimal places how much each closing price of stock is of the average opening stock price concatanated with a % sign.  
-`Percentage of average high price`-rounds to 2 decimal places how much each high price of stock is of the average high stock price concatanated with a % sign.   
-`Case statement` - when our percentage of  opening, closing and high prices are above 90% of the average we will have a stock grade of "A". When our percentage of  opening, closing and high prices are above 50% but less than 90% of the average we will have a stcok grade of "B". Any other value of stock grade (less than 50%) is labelled "Greater risk".  
-`Join on` - we then join on between the two tables we extract the information from.
+`Percentage of average openng price` -Rounds to 2 decimal places how much each opening price of stock is of the average opening stock price concatanated with a % sign.  
+`Percentage of average closing price` - Rounds to 2 decimal places how much each closing price of stock is of the average opening stock price concatanated with a % sign.  
+`Percentage of average high price`- Rounds to 2 decimal places how much each high price of stock is of the average high stock price concatanated with a % sign.   
+`Case statement` - When our percentage of  opening, closing and high prices are above 90% of the average we will have a stock grade of "A". When our percentage of  opening, closing and high prices are above 50% but less than 90% of the average we will have a stcok grade of "B". Any other value of stock grade (less than 50%) is labelled "Greater risk".  
+`Join on` - We then join on between the two tables we extract the information from.
 
 FINAL INSIGHTS 
 
