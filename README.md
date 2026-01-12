@@ -22,7 +22,7 @@ The key questions we would like to answer are:
 2) What are the most popular shares by quantity sold and in which countries?
 
 ### DATA 
-For this query we began by definging the requirements for to keep track of our stock information. We define the logical structure of our database.  
+For this query we began by defining the requirements to keep track of our stock information and out into   
 This information is broken into the following tables:  
 
 Address - The physical adddress of the profile holders including citizenship status, and any mailing difference.  
