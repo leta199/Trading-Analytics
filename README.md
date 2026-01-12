@@ -17,6 +17,7 @@ Database: Oracle Autonomous Database
 
 ## METHODS AND TECHNIQUES    
 The key questions we would like to answer are: 
+
 1) What stocks have historically had a higher than average opening, closing and high?
 2) What are the most popular shares by quantity sold?
 
