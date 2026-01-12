@@ -125,7 +125,8 @@ This query gives greater insight into the trading habits of people across countr
 |├──[query details](https://github.com/leta199/SQL-Trading-Analytics/tree/main/query_details)      
 │  ├──[query #1 result](https://github.com/leta199/SQL-Trading-Analytics/blob/main/query_details/Query%20%231%20result.xlsx)    
 │  ├──[query #1 result](https://github.com/leta199/SQL-Trading-Analytics/blob/main/query_details/Query%20%231%20result.xlsx)   
-│  └──[sql query](https://github.com/leta199/Trading-Analytics/blob/main/query_details/SQL_query.sql)   
+│  └──[sql query](https://github.com/leta199/Trading-Analytics/blob/main/query_details/SQL_query.sql)     
+│  ├──[.gitattributes](https://github.com/leta199/Trading-Analytics/blob/main/query_details/.gitattributes)   
 |  
 |└──[README](https://github.com/leta199/SQL-Trading-Analytics/blob/main/README.md)
 
