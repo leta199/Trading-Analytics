@@ -26,7 +26,7 @@ For this query we began by definging the requirements for to keep track of our s
 This information is broken into the following tables:  
 
 Address - The physical adddress of the profile holders including citizenship status, and any mailing difference.  
-Profile - Profile information for each accoutn holder including profile ID, full name, and email.  
+Profile - Profile information for each account holder including profile ID, full name, and email.  
 Rating types - What the rating of each stock is including: buy, sell or hold.  
 Analyst opinion - What each analyst states about a stock such as date of opinion, rating code and price. 
 Portfolio - Portfolio ID and profile ID.  
