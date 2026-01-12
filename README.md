@@ -19,7 +19,7 @@ Database: Oracle Autonomous Database
 The key questions we would like to answer are: 
 
 1) What stocks have historically had a higher than average opening, closing and high?
-2) What are the most popular shares by quantity sold?
+2) What are the most popular shares by quantity sold and in which countries?
 
 ### DATA 
 For this query we began by definging the requirements for to keep track of our stock information. We define the logical structure of our database.  
