@@ -3,9 +3,9 @@ In the world of stock holdings, tracking information about these holders is of p
 
 This repository aims to:
 
-1) Provide key business insights into stock information and user profiles
-2) Understand underlying database structure 
-3) Analyse queries to gain deeper understanding of each line
+1) Provide key business insights into stock information and user profiles.
+2) Understand underlying database structure. 
+3) Analyse queries to gain deeper understanding of each line.
 
 ## HOW IT'S MADE  
 Language used: SQL  
