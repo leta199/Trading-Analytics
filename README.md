@@ -31,7 +31,7 @@ Rating types - What the rating of each stock is including: buy, sell or hold.
 Analyst opinion - What each analyst states about a stock such as date of opinion, rating code and price. 
 Portfolio - Portfolio ID and profile ID.  
 Stock information - Information on all of the stock we buy/ sell and that are held in portfolios.  
-Insider trading - Information on the traders like sahres traded, price, type (buy/ sell), and symbol.  
+Insider trading - Information on the traders like shares traded, price, type (buy/ sell), and symbol.  
 Currencies - Currency code.  
 Dividend schedule - Schedule of the disperment of dividends for stock holders like stock symbol, dividend amount, yield and currency.  
 Stock history - History of the stock prices such as gistroy date, open, close, volume, high. 
