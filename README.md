@@ -81,7 +81,7 @@ Management would like to investigate what countries have the most trading activi
 <img width="654" height="182" alt="Image" src="https://github.com/user-attachments/assets/1405c3ee-c898-4526-9c6a-d1298e52bfda" />
 
 *Code Analysis*     
-For this query we begin by defining a common table expression (CTE) this allows us to use another named query as a reference in our main query.  
+For this query we begin by defining a common table expression (CTE) this allows us to use another named temporary query as a reference in our main query.  
 `Common table expression` - is called `num_stocks` and has the count of unique stocks from thetrasnactions table. we will reference it in our main query.  
 
 We select the fields we want to to list and begin with the field `country`.  
