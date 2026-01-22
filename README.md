@@ -33,7 +33,7 @@ Portfolio - Portfolio ID and profile ID.
 Stock information - Information on all of the stock we buy/ sell and that are held in portfolios.  
 Insider trading - Information on the traders like shares traded, price, type (buy/ sell), and symbol.  
 Currencies - Currency code.  
-Dividend schedule - Schedule of the disperment of dividends for stock holders like stock symbol, dividend amount, yield and currency.  
+Dividend schedule - Schedule of the disperment of dividends for stock holders including stock symbol, dividend amount, yield and currency.  
 Stock history - History of the stock prices such as gistroy date, open, close, volume, high. 
 
 <img width="1402" height="832" alt="Image" src="https://github.com/user-attachments/assets/f6511e06-6a23-407c-86e3-1022f84a4049" />
