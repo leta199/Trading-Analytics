@@ -1,5 +1,5 @@
 # Trading-Analytics  
-In the world of stock holdings, tracking information about these holders is of paramount importance. We can keep track of all of the transactions, current holdings, ratings etc in connected databases and we can extract useful information from them using SQL queries. As owners of this hypothetical stock trading platform it is our job to deliver useful insights from our database to drive business decisions. 
+In the world of stock holdings, tracking information about these holders is of paramount importance. We can keep track of all of the transactions, current holdings, ratings etc in connected databases and we can extract useful information from them using SQL queries. As owners of this hypothetical stock trading platform, it is our job to deliver useful insights from our database to drive business decisions. 
 
 This repository aims to:
 
