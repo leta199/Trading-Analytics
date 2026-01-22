@@ -40,7 +40,7 @@ Stock history - History of the stock prices such as gistroy date, open, close, v
 
 <img width="1324" height="865" alt="Image" src="https://github.com/user-attachments/assets/8961474c-8e85-403a-a90c-f01cc0cc8dc9" />
 
-The ddl can be found in the database files part of the repository: [ddl file](https://github.com/leta199/Trading-Analytics/blob/main/database_files/stock_database.ddl)
+The ddl can be found in the "database files" part of the repository: [ddl file](https://github.com/leta199/Trading-Analytics/blob/main/database_files/stock_database.ddl)
 
 ### **QUERY #1**
 
