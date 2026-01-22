@@ -18,8 +18,8 @@ Database: Oracle Autonomous Database
 ## METHODS AND TECHNIQUES    
 The key questions we would like to answer are: 
 
-1) What stocks have historically had a higher than average opening, closing and high?
-2) What are the most popular shares by quantity sold and in which countries?
+1) What stocks have historically had a higher than average opening, closing and high ?
+2) What are the most popular shares by quantity sold and in which countries ?
 
 ### DATA 
 For this query we began by defining the requirements to keep track of our stock information and based our tables on these business requirements.  
