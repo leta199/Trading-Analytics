@@ -89,13 +89,13 @@ We select the fields we want to to list and begin with the field `country`.
 `Number of companies traded` -  the number of stocks traded for each country.  
 `Percentage of total number of companies traded` - divides the count of individual stocks by the total stocks from our CTE converting into a percentage by multiplying by 100 and rounding to 2 decimal places and concatenating the percentage symbol "%".   
 `Number of stocks sold` - sums the quantity of stocks traded.  
-We then use a `join` on for the tables address and transactions and a `cross join` with our CTE num_stocks. 
+We then use a `join` on for the tables address and transactions and a `cross join` with our CTE `num_stocks`. 
 
 FINAL INSIGHTS 
 <img width="899" height="215" alt="Image" src="https://github.com/user-attachments/assets/acc17049-dfcd-42fb-b83e-8b0878087ccf" />
 
 Based on the query we have carried out:
-- South Africa (SA) has the greater number of shares traded as well as the largest proportion companies traded  (57.14%).
+- South Africa (SA) has the greater number of shares traded as well as the largest proportion companies traded   at 57.14%.
 - This indicates that South African clients are the most valuable and generate the greatest amount of traffic and revenue through our trading platform.
 - As a result, we will provide priority trading to South African our clients to keep their high number of transactions. This will build customer loyalty since they get first picks on stocks at the fairest prices in the market. 
 
