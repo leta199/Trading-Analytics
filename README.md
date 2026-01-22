@@ -54,7 +54,7 @@ Therefore, they require that we make a Stock grade that indicates how each stock
 We begin by selecting the files we would like to appear in our query.  
 In this query we selected `si.symbol` as our query has a join within it. 
 
-`Percentage of average openng price` -Rounds to 2 decimal places how much each opening price of stock is of the average opening stock price concatanated with a % sign.  
+`Percentage of average openng price` - Rounds to 2 decimal places how much each opening price of stock is of the average opening stock price concatanated with a % sign.  
 `Percentage of average closing price` - Rounds to 2 decimal places how much each closing price of stock is of the average opening stock price concatanated with a % sign.  
 `Percentage of average high price`- Rounds to 2 decimal places how much each high price of stock is of the average high stock price concatanated with a % sign.   
 `Case statement` - When our percentage of  opening, closing and high prices are above 90% of the average we will have a stock grade of "A". When our percentage of  opening, closing and high prices are above 50% but less than 90% of the average we will have a stcok grade of "B". Any other value of stock grade (less than 50%) is labelled "Greater risk".  
