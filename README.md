@@ -25,7 +25,7 @@ The key questions we would like to answer are:
 For this query we began by defining the requirements to keep track of our stock information and based our tables on these business requirements.  
 This information is broken into the following tables:  
 
-Address - The physical adddress of the profile holders including citizenship status, and any mailing difference.  
+Address - The physical adddress of the profile holders including citizenship status, and if their mailing  is different from their physical address.  
 Profile - Profile information for each account holder including profile ID, full name, and email.  
 Rating types - What the rating of each stock is including: buy, sell or hold.  
 Analyst opinion - What each analyst states about a stock such as date of opinion, rating code and price. 
