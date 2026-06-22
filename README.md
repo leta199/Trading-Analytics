@@ -105,7 +105,7 @@ This query gives greater insight into the trading habits of people across countr
 - This could be through initiatives such as better marketing to inform these customers of other stock options that fit their current portfolio through notifications and tailored advertisements. 
 
 ## PROJECT STRUCTURE           
-|[SQL Trading Analytics](https://github.com/leta199/Monte-Carlo-Integration/blob/main/Monte%20Carlo%20Integration.r)  
+|[Trading Analytics](https://github.com/leta199/Monte-Carlo-Integration/blob/main/Monte%20Carlo%20Integration.r)  
 |├──[database files](https://github.com/leta199/SQL-Trading-Analytics/tree/main/database_files)  
 │  ├──[countries](https://github.com/leta199/Trading-Analytics/blob/main/database_files/COUNTRIES_DATA_TABLE.xlsx)   
 │  ├──[currencies](https://github.com/leta199/Trading-Analytics/blob/main/database_files/CURRENCIES_DATA_TABLE.xlsx)      
